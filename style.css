@@ -28,7 +28,6 @@ nav {
 }
 nav ul {
   display: flex;
-  gap: 1rem;
   width: fit-content;
   padding: 0rem 1rem;
 }
@@ -39,17 +38,24 @@ nav ul li a {
   list-style: none;
   color: rgb(255, 255, 255);
   cursor: pointer;
+  padding: 5px;
   font-weight: 600;
 }
+nav ul li a:hover {
+    color: #D7BE82;
+    background-color: rgba(255, 255, 255, 0.556);
+    border-radius: 1rem;
+  }
 span{
     color: white;
+    cursor: pointer;
 }
 
 #biographyroute {
   width: 100vw;
   color: rgb(255, 255, 255);
   height: 30rem;
-  background-image: url(./assets/buldings.jpg);
+  background-image: url(./assets/andree.jpg);
   background-size: cover;
   display: flex;
   gap: 1rem;
