@@ -1,0 +1,72 @@
+/*Fonts Imports*/
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: auto;
+  font-family: "Lora", serif;
+}
+header {
+  /*border: solid 1px black;*/
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  background-color: transparent;
+}
+header img {
+  /*border: solid red 2px;*/
+  width: 110px;
+  margin: 0;
+}
+nav {
+  /*border: solid red 2px;*/
+  display: flex;
+  justify-content: flex-start;
+  margin: 0%;
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+  width: fit-content;
+  padding: 0rem 1rem;
+}
+nav ul li,
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#biographyroute {
+  width: 100vw;
+  color: rgb(255, 255, 255);
+  height: 30rem;
+  background-image: url(./assets/buldings.jpg);
+  background-size: cover;
+  display: flex;
+  gap: 1rem;
+  
+}
+#biographyroute div {
+  width: 50vw;
+}
+#biographyroute h1{
+  color: rgb(255, 255, 255);
+  font-weight: 1000;
+  font-size: 3rem;
+}
+#biographyroute p{
+    margin: 1rem 0;
+  }
+#biographyroute hr {
+  height: 0.5rem;
+  width: 60%;
+  margin: auto;
+  background-color: #D7BE82;
+  border-radius: 1rem;
+}
