@@ -41,6 +41,9 @@ nav ul li a {
   cursor: pointer;
   font-weight: 600;
 }
+span{
+    color: white;
+}
 
 #biographyroute {
   width: 100vw;
@@ -62,6 +65,7 @@ nav ul li a {
 }
 #biographyroute p{
     margin: 1rem 0;
+    text-align: justify;
   }
 #biographyroute hr {
   height: 0.5rem;
