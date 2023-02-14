@@ -1,10 +1,25 @@
 /*Fonts Imports*/
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 * {
-  box-sizing: border-box;
-  padding: 0%;
-  margin: auto;
   font-family: "Lora", serif;
+  box-sizing: border-box;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+#loader {
+  width: 100%;
+  height: 100vh;
+  background: rgb(255, 255, 255)
+    url(../assets/loader.gif) no-repeat center center;
+  background-size: 100%;
+  position: fixed;
+  z-index: 100;
 }
 header {
   /*border: solid 1px black;*/
@@ -12,19 +27,20 @@ header {
   position: fixed;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: fit-content;
-  background-color: transparent;
+  background-color: black;
 }
 header img {
   /*border: solid red 2px;*/
-  width: 110px;
+  width: 100px;
   margin: 0;
 }
 nav {
   /*border: solid red 2px;*/
   display: flex;
   justify-content: flex-start;
-  margin: 0%;
+  margin: 0% 10px;
 }
 nav ul {
   display: flex;
@@ -42,41 +58,50 @@ nav ul li a {
   font-weight: 600;
 }
 nav ul li a:hover {
-    color: #D7BE82;
-    background-color: rgba(255, 255, 255, 0.556);
-    border-radius: 1rem;
-  }
-span{
-    color: white;
-    cursor: pointer;
+  color: #b8912e;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.31);
+  border-bottom: rgb(255, 255, 255) 2px solid;
+}
+span {
+  color: white;
+  cursor: pointer;
 }
 
 #biographyroute {
   width: 100vw;
   color: rgb(255, 255, 255);
-  height: 30rem;
-  background-image: url(./assets/andree.jpg);
+  height: 35rem;
+  background-image: url(../assets/andree.jpg);
   background-size: cover;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
-  
 }
 #biographyroute div {
   width: 50vw;
 }
-#biographyroute h1{
+#biographyroute h1 {
   color: rgb(255, 255, 255);
   font-weight: 1000;
   font-size: 3rem;
 }
-#biographyroute p{
-    margin: 1rem 0;
-    text-align: justify;
-  }
+#biographyroute p {
+  margin: 1rem 0;
+  text-align: justify;
+}
 #biographyroute hr {
   height: 0.5rem;
   width: 60%;
   margin: auto;
-  background-color: #D7BE82;
+  background-color: #d7be82;
   border-radius: 1rem;
+}
+
+
+footer{
+  width: 100vw;
+  height: 4rem;
+  background-color: #d7be82;
 }
