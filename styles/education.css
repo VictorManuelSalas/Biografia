@@ -1,0 +1,110 @@
+#Education {
+  padding: 0%;
+  margin: 0%;
+}
+#Education h2 {
+  font-weight: 1000;
+  font-size: 2rem;
+  margin: 0%;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+.contener-education {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 1rem;
+  padding: 1rem 3rem;
+}
+.contener-education div {
+  width: 40%;
+  border-radius: 0.5rem;
+  height: 15rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0%;
+}
+#buffetson {
+  background-image: url(../assets/buffet\ and\ son.jpg);
+}
+#trading {
+  background-image: url(../assets/inversiones.jpg);
+}
+#harvard {
+  background-image: url(../assets/collage.jpg);
+}
+#subcontener {
+  display: flex;
+  gap: 1rem;
+}
+#subcontener div {
+  width: 100%;
+}
+#military {
+  background-image: url(../assets/militar.jpg);
+}
+#lawyer {
+  background-image: url(../assets/lawyer.jpg);
+}
+.contener-education div .data,
+#subcontener div .data {
+  background-color: rgba(255, 255, 255, 0.847);
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 2rem;
+  display: none;
+  cursor: pointer;
+}
+.contener-education div .data span {
+  color: #d7be82;
+  font-weight: bolder;
+}
+.contener-education div .data h3 {
+  margin: 0%;
+}
+.contener-education div:hover > .data,
+#subcontener div:hover > .data {
+  background-color: rgba(255, 255, 255, 0.847);
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 2rem;
+  -webkit-box-shadow: 1px 1px 20px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 20px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 20px -9px rgba(0, 0, 0, 0.75);
+}
+
+#link-education {
+  width: 80%;
+  height: fit-content;
+
+}
+#link-education p,
+a {
+  margin: 0;
+  z-index: 3;
+  font-weight: bolder;
+  color: #d7be82;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+}
+#link-education p span {
+  font-weight: bolder;
+  color: #d7be82;
+}
+/*
+#link-education p:hover > span {
+ font-size: 0rem 2rem;
+}
+*/

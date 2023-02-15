@@ -1,0 +1,30 @@
+#Who {
+  background-color: rgb(0, 0, 0);
+  margin: 0%;
+  color: white;
+  padding: 2rem 2rem 0rem;
+  display: flex;
+  align-items: flex-end;
+}
+#Who h2 {
+  font-weight: 1000;
+  font-size: 2rem;
+}
+
+#Who div button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    margin: 1rem 0rem 2rem ;
+    background-color: #d7be82;
+  }
+  
+  
+#Who div button:hover {
+    color: black;
+    background-color: #ffffff;
+  }
+  

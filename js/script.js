@@ -17,5 +17,5 @@ copyright.innerHTML = txt;
 
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
-    header.classList.toggle("abajo", window.scrollY>10);
+    header.classList.toggle("scroll", window.scrollY>10);
 })

@@ -31,7 +31,7 @@ header {
   height: fit-content;
   background-color: transparent;
 }
-header.abajo{
+header.scroll{
   background-color: black;
   z-index: 10;
 }
@@ -96,6 +96,7 @@ span {
   color: rgb(255, 255, 255);
   font-weight: 1000;
   font-size: 3rem;
+  margin: 0%;
 }
 #biographyroute p {
   margin: 1rem 0;
@@ -119,21 +120,21 @@ footer{
   justify-content: center;
   align-items: center;
   transition: 5s all;
-  animation: changeBG 10s infinite alternate linear;
+  /*animation: changeBG 10s infinite alternate linear;*/
 }
-
+/*
 @keyframes changeBG{
   0%{
     background-color: #D7BE82;
   }
   25%{
-    background-color: #7A4419;
+    background-color: #7a4519c0;
   }
   50%{
-    background-color: #755C1B;
+    background-color: #755c1ba4;
   }
   75%{
-    background-color: #400406;
+    background-color: #400406a9;
     color: white;
   }
   100%{
@@ -141,3 +142,4 @@ footer{
     color: black;
   }
 }
+*/
