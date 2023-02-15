@@ -32,16 +32,16 @@
     </header>
     <main>
         <section id="biographyroute">
-            <div>
-                <h1>Charles Munger</h1>
+            <div id="data">
+                <h1 >Charles Munger</h1>
                 <p>Charles Thomas Munger es un famoso inversionista, abogado de bienes raíces y filántropo
                     estadounidense, el cual actualmente se desempeña en el puesto de vicepresidente de Berkshire
                     Hathaway, un conglomerado dirigido por Warren Buffett. </p>
-                <hr>
+                <hr id="hr">
             </div>
         </section>
         <section id="Who">
-         
+
         </section>
         <section id="Education"></section>
         <section id="Style"></section>
@@ -84,7 +84,8 @@
                 </div>
             </div>
         </section>
-        <section id="Tips"></section>
+        <section id="Tips">
+        </section>
     </main>
 
     <footer>
@@ -92,6 +93,24 @@
     </footer>
     <!--Poner le bien la dierccion-->
     <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.phrases', { delay: 500 });
+        window.sr = ScrollReveal();
+
+        sr.reveal('#data', {
+            duration: 3000,
+            origin: 'top',
+            distance: '100px'
+
+        });
+        sr.reveal('#hr', {
+            duration: 3000,
+            origin: 'right',
+            distance: '-1000px'
+
+        });
+    </script>
 </body>
 
 </html>

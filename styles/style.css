@@ -29,7 +29,11 @@ header {
   justify-content: space-between;
   align-items: center;
   height: fit-content;
+  background-color: transparent;
+}
+header.abajo{
   background-color: black;
+  z-index: 10;
 }
 header img {
   /*border: solid red 2px;*/
@@ -58,7 +62,11 @@ nav ul li a {
   cursor: pointer;
   padding: 5px;
   font-weight: 600;
+  display: block;
+  transition: .5s;
+  position: relative;
 }
+
 nav ul li a:hover {
   color: #b8912e;
   border-radius: 1rem;
@@ -79,6 +87,7 @@ span {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  cursor: none;
 }
 #biographyroute div {
   width: 50vw;
@@ -103,6 +112,10 @@ span {
 
 footer{
   width: 100vw;
-  height: 4rem;
+  height: 2rem;
+  padding: 2rem 0rem;
   background-color: #d7be82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
