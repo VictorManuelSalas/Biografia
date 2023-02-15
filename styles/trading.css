@@ -1,0 +1,21 @@
+#Style {
+  background-color: black;
+  display: flex;
+  height: fit-content;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  align-items: center;
+  color: white;
+}
+#Style h2 {
+  padding: 0%;
+}
+#Style b {
+  color: #d7be82;
+  text-decoration-line: overline ;
+  text-decoration-color: #d7be82;
+}
+iframe {
+  border-radius: 0.5rem;
+  border-bottom: solid #d7be82 5px;
+}

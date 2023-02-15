@@ -109,7 +109,13 @@ span {
   background-color: #d7be82;
   border-radius: 1rem;
 }
-
+h2 {
+  font-weight: 1000;
+  font-size: 2rem;
+  margin: 0%;
+  padding: 2rem 0rem;
+  text-align: center;
+}
 
 footer{
   width: 100vw;
