@@ -4,13 +4,16 @@
   color: white;
   padding: 2rem 2rem 0rem;
   display: flex;
+  justify-content: center;
   align-items: flex-end;
 }
 #Who h2 {
   font-weight: 1000;
   font-size: 2rem;
 }
-
+#Who div {
+  width: 50%;
+}
 #Who div button {
   font-size: 1rem;
   font-weight: bold;
@@ -100,13 +103,13 @@ header{
   padding: 3rem 0rem;
 }
 
-
+ nav {
+    display: none;
+  }
   .phrases {
     width: 90%;
   }
-  nav {
-    display: none;
-  }
+ 
   #biographyroute div {
     width: 90vw;
   }
@@ -124,6 +127,10 @@ header{
   }
   #link-education {
     overflow-y: hidden;
+  }
+
+  #Who div {
+    width: 100%;
   }
 }
 @media screen and (max-width: 450px) {
