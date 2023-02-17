@@ -65,6 +65,18 @@
     iframe{
       width: 90%;
     }
-
+    .contener-education {
+      flex-flow: none;
+    }
+    .contener-education div {
+      overflow-y: auto;
+      height: fit-content;
+    }
+    #subcontener div{
+      height: 100%;
+    }
+    #link-education{
+      overflow-y: hidden;
+    }
   }
   
