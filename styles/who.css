@@ -68,19 +68,19 @@ header{
   #menu_on span:nth-child(3){
   bottom: 0;
   }
-  .visible_menu span:nth-child(1){
+  .menu_icon span:nth-child(1){
     transform: rotate(45deg) translate(-2px,1px); 
   }
    
-  .visible_menu span:nth-child(2){
+  .menu_icon span:nth-child(2){
     opacity: 0;
   }
    
-  .visible_menu span:nth-child(3){
+  .menu_icon span:nth-child(3){
     transform: rotate(-45deg) translate(-3px,3px); 
   }
   
- .visible_menu nav{
+ .visible_menu{
   display: flex;
   position: absolute;
   justify-content: space-around;
@@ -93,7 +93,7 @@ header{
   width: 50vw;
   transition: step-start;
  }
-.visible_menu nav ul {
+.visible_menu ul {
   flex-direction: column;
   gap: 2rem;
   height: 90vh;
@@ -142,7 +142,7 @@ header{
   iframe {
     width: 90%;
   }
-  .visible_menu nav{
+  .visible_menu{
     display: flex;
     position: absolute;
     justify-content: space-around;

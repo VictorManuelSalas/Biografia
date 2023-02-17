@@ -21,7 +21,7 @@
     <div id="loader"></div>
     <header>
         <img src="./assets/logoBlanco.png" alt="logotipo">
-        <nav>
+        <nav id="nav_show">
             <ul>
                 <li><a href="#Who">¿Quien es?</a></li>
                 <li><a href="#Education">Estudios y Vida Laboral</a></li>
@@ -32,9 +32,9 @@
 
         </nav>
         <div id="menu_on">
-            <span></span>
-            <span></span>
-            <span></span>
+            <span id="span"></span>
+            <span id="span"></span>
+            <span id="span"></span>
         </div>
     </header>
     <main>
@@ -210,7 +210,6 @@
             </div>
 
         </section>
-
         <section id="Tips">
             <h2>Consejos de Inversión de Charlie Munger</h2>
             <p id="txt">Además de ser el vicepresidente de Berkshire Hathaway, presidente de Daily Journal Corporation,
@@ -305,17 +304,14 @@
         });
     </script>
 
-<script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
-integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
-</script>
 
 <!-- Creamos nuestra función -->
 <script type="text/javascript">
-   $( document ).ready(function() {
-       $('#menu_on').click(function(){ // Al hacer click...
-          $('body').toggleClass('visible_menu'); // Añadimos o eliminamos la clase 'visible_menu' al body
-        })
-   });
+   let menu = document.getElementById('menu_on').addEventListener('click', mostrar_menu);
+   function mostrar_menu(){
+    document.getElementById('menu_on').classList.toggle('menu_icon');
+    document.getElementById("nav_show").classList.toggle('visible_menu');
+   }
 </script>
 </body>
 
