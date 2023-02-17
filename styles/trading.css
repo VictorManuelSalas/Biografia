@@ -7,6 +7,12 @@
   align-items: center;
   color: white;
 }
+#Style div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 #Style h2 {
   padding: 0%;
 }

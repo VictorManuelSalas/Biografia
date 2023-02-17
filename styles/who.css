@@ -22,6 +22,9 @@
     transition: all 0.5s ease-in;
     background-color: #d7be82;
   }
+  #Who div img {
+    width: 90%;
+  }
   
   
 #Who div button:hover {
@@ -29,5 +32,39 @@
     padding: 1rem 3rem;
     background-color: #ffffff;
     transition: all 0.5s ease-in;
+  }
+  @media screen and (max-width:770px) {
+    #Who,#Style{
+      flex-direction: column;
+      align-items: center;
+    }
+    .phrases {
+      width: 90%;
+    }
+    nav{
+      display: none;
+    }
+    #biographyroute div {
+      width: 90vw;
+    }
+ 
+
+  }
+  @media screen and (max-width:450px) {
+    *{
+      text-align: justify;
+    }
+    #Who,#Style{
+      flex-direction: column;
+      align-items: center;
+    }
+    .phrases {
+      width: 100%;
+    }
+    
+    iframe{
+      width: 90%;
+    }
+
   }
   
