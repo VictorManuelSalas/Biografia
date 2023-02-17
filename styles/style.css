@@ -52,6 +52,9 @@ header img {
   width: 100px;
   margin: 0;
 }
+#menu_on{
+  display: none;
+}
 nav {
   /*border: solid red 2px;*/
   display: flex;

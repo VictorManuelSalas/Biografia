@@ -28,11 +28,14 @@
                 <li><a href="#Style">Estilo de Inversión</a></li>
                 <li><a href="#Phrases">Frases Iconicas</a></li>
                 <li><a href="#Tips">Consejos de Inversion</a></li>
-                <span class="material-symbols-outlined">
-                    light_mode
-                </span>
             </ul>
+
         </nav>
+        <div id="menu_on">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </header>
     <main>
         <section id="biographyroute">
@@ -128,7 +131,7 @@
                 </div>
                 <div id="link-education">
                     <p>
-                        <a href="">Se more </a>
+                        <a href="./menu.html">Se more </a>
                         <span class="material-symbols-outlined">
                             arrow_forward
                         </span>
@@ -210,7 +213,8 @@
 
         <section id="Tips">
             <h2>Consejos de Inversión de Charlie Munger</h2>
-            <p id="txt">Además de ser el vicepresidente de Berkshire Hathaway, presidente de Daily Journal Corporation, socio
+            <p id="txt">Además de ser el vicepresidente de Berkshire Hathaway, presidente de Daily Journal Corporation,
+                socio
                 comercial y mano derecha de Warren Buffett. Charlie Munger quien, posee una fortuna que supera los dos
                 mil millones de dólares, con toda su experiencia nos deja puntos clave para el éxito, de acuerdo a su
                 filosofía personal:</p>
@@ -300,6 +304,19 @@
 
         });
     </script>
+
+<script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+</script>
+
+<!-- Creamos nuestra función -->
+<script type="text/javascript">
+   $( document ).ready(function() {
+       $('#menu_on').click(function(){ // Al hacer click...
+          $('body').toggleClass('visible_menu'); // Añadimos o eliminamos la clase 'visible_menu' al body
+        })
+   });
+</script>
 </body>
 
 </html>
